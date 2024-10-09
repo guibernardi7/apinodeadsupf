@@ -1,0 +1,27 @@
+GET http://localhost:3333/alunos
+
+###
+
+POST http://localhost:3333/alunos
+Content-Type: application/json
+
+{
+    "name": "João 2",
+    "email": "aajoao@upf.com",
+    "age": 20
+}
+
+###
+
+PUT http://localhost:3333/alunos/ac30d552-4625-459b-bea6-9bb269b80453
+Content-Type: application/json
+
+{
+    "name": "João 3",
+    "email": "ajoao@upf.com",
+    "age": 220
+}
+
+###
+
+DELETE  http://localhost:3333/alunos/ac30d552-4625-459b-bea6-9bb269b80453
