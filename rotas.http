@@ -1,13 +1,13 @@
-GET http://localhost:3333/alunos
+GET https://apinodeadsupf-2lkh.onrender.com/alunos
 
 ###
 
-POST http://localhost:3333/alunos
+POST https://apinodeadsupf-2lkh.onrender.com/alunos
 Content-Type: application/json
 
 {
-    "name": "João 2",
-    "email": "aajoao@upf.com",
+    "name": "João 5",
+    "email": "aajoa5o@upf.com",
     "age": 20
 }
 
